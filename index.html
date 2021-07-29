@@ -34,13 +34,12 @@
 
                     <!-- Button trigger modal -->
                     <button type="button" class="btn bg-orangered text-white fs-5 border-0 btn-outline-danger px-5"
-                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        data-bs-toggle="modal" data-bs-target="#purchaseModal">
                         Purchase
                     </button>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
+                    <!-- Purchase Modal -->
+                    <div class="modal fade" id="purchaseModal" tabindex="-1" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered modal-xl">
                             <div class="modal-content">
                                 <!-- modal body -->
@@ -49,12 +48,38 @@
                                 </div>
                                 <!-- modal footer -->
                                 <div class="modal-footer flex-nowrap pt-0">
-                                    <button type="button" class="btn btn-dark px-5 w-50 fw-bold"
+                                    <button type="button" class="btn text-white bg-orangered px-5 w-100 fw-bold"
+                                        data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#detailsModal">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Details Modal -->
+                    <div class="modal fade" id="detailsModal" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                            <div class="modal-content">
+                                <!-- modal body -->
+                                <div class="modal-body">
+                                    <h1 class="text-center text-orangered fw-bold display-2">AGGRESSIVELY EFFICIENT</h1>
+                                    <p class="fs-5 my-3 text-secondary">
+                                        If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the
+                                        2021 Honda CBR300R is your sweet spot between form and function. It’s narrow,
+                                        light, and a total blast to ride around town and on twisty back roads. The
+                                        single-cylinder engine offers great fuel economy, with smooth and friendly
+                                        torque delivery. And the affordable cost and responsive handling makes it a
+                                        terrific bike for first-time riders, and for those looking to grow their garage.
+                                        There’s even a version available with our anti-lock braking system. Plus, this
+                                        year the CBR300R brings hot new graphics in two color choices. Time to get
+                                        riding!
+                                    </p>
+                                </div>
+                                <!-- modal footer -->
+                                <div class="modal-footer flex-nowrap pt-0">
+                                    <button type="button" class="btn btn-dark px-5 w-100 fw-bold"
                                         data-bs-dismiss="modal">
                                         Close
-                                    </button>
-                                    <button type="button" class="btn text-white bg-orangered px-5 w-50 fw-bold">
-                                        Details
                                     </button>
                                 </div>
                             </div>
@@ -72,7 +97,7 @@
         <section class="py-5">
             <div class="container text-center">
                 <h1 class="display-5 text-dark fw-bold">Featured Bikes 2021</h1>
-                <h6 class="text-orangered fw-bold">Best Bike Collection</h6>
+                <h5 class="text-orangered fw-bold">Best Bike Collection</h5>
 
                 <div class="row row-cols-1 row-cols-md-3 gy-5 gx-md-5 px-3 my-5">
                     <div class="col p-lg-5 img-grayscale">
