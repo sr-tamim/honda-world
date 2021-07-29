@@ -42,7 +42,8 @@
                     </button>
 
                     <!-- Purchase Modal -->
-                    <div class="modal fade" id="purchaseModal" tabindex="-1" aria-hidden="true">
+                    <div class="modal fade" id="purchaseModal" data-bs-backdrop="static" tabindex="-1"
+                        aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered modal-xl">
                             <div class="modal-content">
                                 <!-- modal body -->
@@ -213,7 +214,7 @@
                     <div class="col accordion" id="faqAccordion">
                         <div class="accordion-item border-top my-3">
                             <h2 class="accordion-header" id="no-1">
-                                <button class="accordion-button bg-white text-dark fs-5" type="button"
+                                <button class="accordion-button bg-white text-dark fs-5 shadow-none" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                     aria-controls="collapseOne">
                                     What are the most important thing I should know about riding a bike?
@@ -230,9 +231,9 @@
                         </div>
                         <div class="accordion-item border-top my-3">
                             <h2 class="accordion-header" id="no-2">
-                                <button class="accordion-button collapsed bg-white text-dark fs-5" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo">
+                                <button class="accordion-button collapsed bg-white text-dark fs-5 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
                                     How can I tell if my helmet is old and I need a new one?
                                 </button>
                             </h2>
@@ -252,9 +253,9 @@
                         </div>
                         <div class="accordion-item border-top my-3">
                             <h2 class="accordion-header" id="no-3">
-                                <button class="accordion-button collapsed bg-white text-dark fs-5" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
+                                <button class="accordion-button collapsed bg-white text-dark fs-5 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
                                     My bike has been in storage, is it safe to ride?
                                 </button>
                             </h2>
@@ -273,9 +274,9 @@
                         </div>
                         <div class="accordion-item border-top my-3">
                             <h2 class="accordion-header" id="no-4">
-                                <button class="accordion-button collapsed bg-white text-dark fs-5" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                                    aria-controls="collapseFour">
+                                <button class="accordion-button collapsed bg-white text-dark fs-5 shadow-none"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                    aria-expanded="false" aria-controls="collapseFour">
                                     What rules should I follow when riding my bike?
                                 </button>
                             </h2>
@@ -296,6 +297,122 @@
                 </div>
             </div>
         </section>
+
+        <!-- features section -->
+        <section class="py-5">
+            <div class="container px-0 py-5 mx-auto">
+                <div class="pb-5 mb-5 text-center">
+                    <h1 class="fw-bold">Features</h1>
+                    <h4 class="text-orangered fw-bold">CBR300R</h4>
+                </div>
+                <div id="features" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators bottom-100 mb-0 mx-0 fs-4">
+                        <button type="button" data-bs-target="#features" data-bs-slide-to="0"
+                            class="active h-auto w-auto border-0 px-3 py-2" aria-current="true" style="text-indent:0;">
+                            Performance
+                        </button>
+                        <button type="button" data-bs-target="#features" data-bs-slide-to="1"
+                            class="h-auto w-auto border-0 px-3 py-2" aria-current="true" style="text-indent:0;">
+                            Comfort
+                        </button>
+                        <button type="button" data-bs-target="#features" data-bs-slide-to="2"
+                            class="h-auto w-auto border-0 px-3 py-2" aria-current="true" style="text-indent:0;">
+                            Engineering
+                        </button>
+                        <button type="button" data-bs-target="#features" data-bs-slide-to="3"
+                            class="h-auto w-auto border-0 px-3 py-2" aria-current="true" style="text-indent:0;">
+                            Style
+                        </button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div>
+                                <img src="img/feature-1.jpg" class="w-100">
+                            </div>
+                            <div class="px-5 py-4">
+                                <h6 class="text-orangered text-uppercase fw-bold">Performance</h6>
+                                <h4 class="text-uppercase fw-bold">single-cylinder engine</h4>
+                                <p class="my-3">
+                                    A single is the perfect choice for a bike like the CBR300R. It's light, simple, fuel
+                                    efficient and features a broad powerband with plenty of low-revving torque—just what
+                                    you want in your first motorcycle, but geared for comfortable cruising at highway
+                                    speeds.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <img src="img/feature-2.jpg" class="w-100">
+                            </div>
+                            <div class="px-5 py-4">
+                                <h6 class="text-orangered text-uppercase fw-bold">comfort</h6>
+                                <h4 class="text-uppercase fw-bold">narrow seat & low seat height</h4>
+                                <p class="my-3">
+                                    A low 30.7-inch seat height does more than help make sure the CBR300R fits a wide
+                                    range of riders. It makes it easier to put your feet down at stoplights and in
+                                    parking lots—a big confidence builder.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <img src="img/feature-3.jpg" class="w-100">
+                            </div>
+                            <div class="px-5 py-4">
+                                <h6 class="text-orangered text-uppercase fw-bold">Engineering</h6>
+                                <h4 class="text-uppercase fw-bold">counterbalance shaft</h4>
+                                <p class="my-3">
+                                    Because it features a counterbalancer, the CBR300R engine is a smooth runner. You
+                                    get the narrow overall width and power advantages of a single along with the
+                                    smoothness of a multi-cylinder bike.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <img src="img/feature-4.jpg" class="w-100">
+                            </div>
+                            <div class="px-5 py-4">
+                                <h6 class="text-orangered text-uppercase fw-bold">style</h6>
+                                <h4 class="text-uppercase fw-bold">supersport styling</h4>
+                                <p class="my-3">
+                                    The CBR300R features full-cowl supersport styling and dual headlights, increasing
+                                    aero efficiency and carrying the styling cues from our CBR-RR series.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- offers section -->
+        <section class="py-5">
+            <div id="offers" class="row row-cols-1 row-cols-lg-3 mx-2 py-5">
+                <div class="col">
+                    <div class="py-4 p-md-4 d-flex justify-content-center">
+                        <img class="w-100" src="img/img-1.jpg">
+                    </div>
+                    <div class="py-4 p-md-4 d-flex justify-content-center">
+                        <img class="w-100" src="img/img-2.jpg">
+                    </div>
+                    <div class="py-4 p-md-4 d-flex justify-content-center">
+                        <img class="w-100" src="img/img-3.jpg">
+                    </div>
+                </div>
+                <div class="col py-4 p-md-4 d-flex justify-content-center">
+                    <img class="w-100" src="img/img-4.jpg">
+                </div>
+                <div class="col py-4 p-md-4 d-flex justify-content-center">
+                    <img class="w-100" src="img/img-5.jpg">
+                </div>
+            </div>
+        </section>
+
 
         <!-- newsletter section -->
         <section class="py-5" style="background:#fff1ee;">
@@ -322,28 +439,6 @@
             </div>
         </section>
 
-        <!-- offers section -->
-        <section class="py-5">
-            <div id="offers" class="row row-cols-1 row-cols-lg-3 mx-2">
-                <div class="col">
-                    <div class="py-4 p-md-4 d-flex justify-content-center">
-                        <img class="w-100" src="img/img-1.jpg">
-                    </div>
-                    <div class="py-4 p-md-4 d-flex justify-content-center">
-                        <img class="w-100" src="img/img-2.jpg">
-                    </div>
-                    <div class="py-4 p-md-4 d-flex justify-content-center">
-                        <img class="w-100" src="img/img-3.jpg">
-                    </div>
-                </div>
-                <div class="col py-4 p-md-4 d-flex justify-content-center">
-                    <img class="w-100" src="img/img-4.jpg">
-                </div>
-                <div class="col py-4 p-md-4 d-flex justify-content-center">
-                    <img class="w-100" src="img/img-5.jpg">
-                </div>
-            </div>
-        </section>
     </main>
 
 

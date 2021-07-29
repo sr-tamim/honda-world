@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;700&display=swap');
 
+/* base styles */
 html{ font-size: 16px; }
+*{
+    font-family: 'Poppins', sans-serif;
+}
 
+/* common styles */
 .bg-orangered{ background: #E76F51 !important; }
 .text-orangered{ color: #E76F51 !important; }
 
+
+/* home section styles */
 #home{
     background: #264653;
 }
 
+/* featured bike filter */
 .img-grayscale{
     filter: grayscale(100%);
     transition: filter 500ms ease-in-out;
@@ -16,11 +25,20 @@ html{ font-size: 16px; }
     filter: grayscale(0);
 }
 
-.accordion-button{ box-shadow: none !important; }
-.accordion-button::after{
-    background-image: url(img/accordian-arrow.svg) !important;
+/* faq section styles */
+#faqAccordian{
+    font-family: 'Inter', 'Poppins', sans-serif;
 }
 
+
+/* features section styles */
+.carousel-indicators .active{
+    color:#E76F51;
+    font-weight: bold;
+}
+
+
+/* offers section styles */
 #offers img{
     filter: blur(10px) brightness(80%);
     transition: filter 500ms ease;
